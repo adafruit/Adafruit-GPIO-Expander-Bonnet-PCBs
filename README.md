@@ -1,6 +1,6 @@
 ## Adafruit GPIO Expander Bonnet PCB
 
-<a href="http://www.adafruit.com/products/4132"><img src="assets/4132.jpg?raw=true" width="500px"><br/>
+<a href="http://www.adafruit.com/products/4132"><img src="assets/4132-11.jpg?raw=true" width="500px"><br/>
 Click here to purchase one from the Adafruit shop</a>
 
 PCB files for the Adafruit GPIO Expander Bonnet. Format is EagleCAD schematic and board layout
@@ -19,6 +19,8 @@ When used as an input, you can set up a pull-up resistor so buttons and switches
 By soldering close the address select jumpers, you can change the address from 0x20 up to 0x27. So, if you wanted to, you could have up to 8 bonnets for 128 total GPIO.
 
 Comes as an assembled and tested Bonnet with slim 2x20 header connector on the bottom. We provide 2 sets of 16-pin IDC sockets, you can solder these in or leave them off for a slim setup. [Follow our guide to use our CircuitPython library with Python 3 for fast and easy setup and configuration, you'll be running in under 5 minutes.](https://learn.adafruit.com/gpio-expander-bonnet/overview)
+
+<b>As of October 31, 2023</b> - We've added an on-board Stemma QT port for easy plug-n-play of I2C sensors and devices. The board also now comes with the two IDC socket headers pre-soldered. Lastly, we've also updated it with Adafruit Pinguin to make a lovely and legible silkscreen
 
 ### License
 
